@@ -38,6 +38,15 @@ h3{
     text-decoration: none;
 }
 
+.icons{
+  display: inline-block;
+}
+
+.element-icons{
+  text-decoration: none;
+  font-size: 50px;
+}
+
 .list-inline{
     padding-left: 0;
 }
@@ -47,3 +56,24 @@ h3{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+
+
+.icons {
+  width: 250px;
+  height: 250px;
+}
+
+.sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(69, 97, 157, 0.5);
+}
+#page-content {
+  margin-left: 100px;
+}
+
+
