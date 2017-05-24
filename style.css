@@ -1,0 +1,49 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(69, 97, 157, 0.1);
+/*    background-image: url('images/gustavo.jpg');*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3{
+    color: #45619D;
+}
+
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.no-decoration{
+    text-decoration: none;
+}
+
+.list-inline{
+    padding-left: 0;
+}
+
+.list-inline li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
